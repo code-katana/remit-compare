@@ -445,6 +445,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/yhat/scrape"
+  packages = ["."]
+  revision = "24b7890b0945459dbf91743e4d2ac5d75a51fee2"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/crypto"
   packages = [
     "bcrypt",
@@ -487,6 +493,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d560dc28e410e1b5d96f98251441b381c27777d05173bcd8a41499bc46ccfb0b"
+  inputs-digest = "4ef58dffc1c6a239288fc971d547ba902b19067da3c08a833cc16ff7d821c42a"
   solver-name = "gps-cdcl"
   solver-version = 1
